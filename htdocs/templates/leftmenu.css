@@ -4,9 +4,9 @@
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     position: relative;
     font-family: "Helvetica";
 }
@@ -28,15 +28,20 @@ body {
     z-index: 1;
 }
 
+.left-menu-bottom, .left-menu-top {
+    width: 100%;
+}
+
 .left-menu ul {
     list-style: none;
+    width: 100%;
 }
 
 .left-menu li {
     text-align: center;
     box-sizing: border-box;
     width: 100%;
-    padding: 20px;
+    padding: 40px 0px;
 }
 
 .left-menu a {
@@ -45,15 +50,7 @@ body {
     text-decoration: none;
 }
 
-.left-menu-top {
-    margin-top: 20px;
+ul li:hover {
+    background-color: rgb(26, 26, 26);
 }
 
-.left-menu-bottom {
-    margin-bottom: 20px;
-}
-
-/* ul li:hover {
-    background-color: black;
-}
- */
