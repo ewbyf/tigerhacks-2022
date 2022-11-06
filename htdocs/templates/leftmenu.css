@@ -1,0 +1,59 @@
+@font-face{
+    font-family:"Helvetica";
+    src: url("fonts/helvetica.otf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    position: relative;
+    font-family: "Helvetica";
+}
+
+body {
+    background-color: rgb(36, 36, 36);
+    height: 100%;
+}
+
+.left-menu {
+    background-color: rgb(49, 49, 49);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    z-index: 1;
+}
+
+.left-menu ul {
+    list-style: none;
+}
+
+.left-menu li {
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+}
+
+.left-menu a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.left-menu-top {
+    margin-top: 20px;
+}
+
+.left-menu-bottom {
+    margin-bottom: 20px;
+}
+
+/* ul li:hover {
+    background-color: black;
+}
+ */

@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+}
+
+.flex-default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-bottom: 20px;
+    height: 50px;
+    width: 100px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.noaccount {
+    color: white;
+    font-size: 24px;
+}
+
+.error {
+    color: red;
+    font-size: 26px;
+    margin-bottom: 10px;
+}

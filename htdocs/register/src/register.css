@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+}
+
+.flex-default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register p {
+    text-align: center;
+}
+
+.register input {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    color: white;
+    margin-bottom: 10px; 
+    text-align: center;
+    font-size: 24px;
+}
+
+.notmatch {
+    text-align: center;
+    color: rgb(255, 96, 96);
+    display: none;
+}
+
+.pleaseenter {
+    text-align:center;
+    color: white;
+    display: none;
+}
+
+.toggle {
+    display: flex;
+}
+
+button {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    height: 50px;
+    width: 150px;
+}
+
+.hasaccount {
+    font-size: 24px;
+    color: white;
+}
+
+.error {
+    color: red;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
