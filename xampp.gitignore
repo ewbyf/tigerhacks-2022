@@ -59,3 +59,17 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+
+# Readme(s)
+*.txt
+
+#uninstallers
+uninstall.dat
+uninstall.exe
+
+#xampp setup
+setup_xampp.bat
+
+#tester
+test_php.bat
+
